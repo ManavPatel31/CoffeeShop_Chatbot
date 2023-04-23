@@ -1,5 +1,5 @@
 # CoffeeShop_Chatbot
-This is the code to create a simple chatbot using Deep Learning Algorithms.
+# This is the code to create a simple chatbot using Deep Learning Algorithms.
 
 The chatbot is designed to react to questions on ordering coffee and making a table reservation at a coffee shop. Just a few of the numerous "intents" or types of inquiries that are covered are greetings, ordering coffee, coffee variations, coffee sizes, coffee additives, coffee costs, specialty beverages, booking a table, location, and operation hours. For each goal, a list of potential user inputs (patterns) is provided, along with the chatbot's pertinent responses. For instance, if a user asks, "Can I order a coffee?the chatbot will understand the intent "order_coffee"and reply, "Of course, what size would you like your coffee?”.
 
@@ -20,17 +20,17 @@ The chatbot is designed to react to questions on ordering coffee and making a ta
 | complaints | [I have a complaint I'd like to file!, I'm not happy with my order, I need to report an issue] | ["I'm sorry to hear that. Please let me know what the issue is so we can address it and make things right.", 'I apologize for any inconvenience. Please speak to a manager and we will do our best to resolve the issue.', 'Thank you for bringing this to our attention. Please speak to my manager. We take all complaints seriously and will investigate the issue.'] | 
 | thank_you | [Thank you, Thanks, Appreciate it] | ["You're welcome! Have a great day!", 'No problem, happy to help!', 'Glad I could assist you. Enjoy your meal!']|
 
-This is the summary of the model:<br />
+# This is the summary of the model:<br />
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/90365773/233862512-b8f49270-4b93-420b-9e0a-13e63a78e364.png">
 
 
-Conclusions on the observed accuracy:<br />
+# Conclusions on the observed accuracy:<br />
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/90365773/233862533-c0dbeebd-a193-4ca0-9371-c497fea884ed.png">
 Here are the last two epochs, the model is train to about 65.85%.
 However, the model is seeming to be over fitting due to less data available. This might be because the model doesn’t really need 1000 epochs.<br />
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/90365773/233862539-7b0b1c29-7f68-4e46-9572-3b5b5f668513.png">
 
-
+# Scope of improvement:<br />
 By adding more intents, patterns, and responses, the bot's knowledge base will grow. The chatbot will be able to answer to user enquiries more efficiently and precisely as a result. 
 Improve natural language processing (NLP): The effectiveness of a chatbot hinges on its ability to decipher and comprehend natural language. As part of NLP, the bot's ability to recognise and understand linguistic subtleties, synonyms, and patterns must be enhanced. 
 machine learning included: By learning from user interactions, machine learning can help the chatbot develop its responses over time. This could mean utilising unsupervised learning to identify patterns and trends in user questions or using prior interactions to teach the bot. 
