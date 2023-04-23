@@ -5,7 +5,11 @@ The chatbot is designed to react to questions on ordering coffee and making a ta
 
 | Intent | Expected Patterns | Expexted Responses |
 |--------|-------------------|--------------------|
-| greeting | Hi \nHello\nHey there\nGood morning\n | ['Hello! How can I help you today?', 'Hi! What can I do for you?', 'Hey there! How can I assist you?']|
+| greeting | Hi 
+Hello
+Hey there
+Good morning
+| ['Hello! How can I help you today?', 'Hi! What can I do for you?', 'Hey there! How can I assist you?']|
 | order_coffee | Can I order a coffee?\nI want a coffee\nCan you make me a coffee?\nCoffee please | ['Sure, what type of coffee would you like?', 'Of course, what size would you like your coffee?', 'Certainly, would you like anything else with your coffee?'] | 
 |--------|-------------------|--------------------|
 
